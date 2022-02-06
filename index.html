@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Img Gallery</title>
+
+        <!-- custom css file -->
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body class="play_arrow">
+        
+        <nav>
+            <div>
+                <span class="material-icons">
+                    add_a_photo
+                </span>
+                <span class="logo">Img Gallery</span>
+            </div>
+            <div class="search">
+                <input type="text" id="search" placeholder="Search...">
+                <label for="search" class="material-icons">search</label>
+            </div>
+        </nav>
+
+        <section id="gallery">
+            <!-- <div class="img ">
+                <img src="images/arr_img1.jpg" alt="">
+            </div> -->
+        </section>
+
+        <section id="gallery-popup">
+
+            <div class="popup-container full-width">
+                <div class="main-img">
+                    <img src=""  alt="loading....">
+                </div><!-- main-img -->
+                <div class="control">
+                    <span class="material-icons">file_download</span>
+                    <span class="material-icons" id="mode-on"> play_arrow</span>
+                    <span class="material-icons" id="menu">apps</span>
+                    <span class="material-icons" title="close" id="close">close</span>
+                </div><!-- ./control -->
+                <div class="rows">
+                    <button class="material-icons" id="pre">west</button>
+                    <button class="material-icons" id="next">east</button>
+                </div><!-- rows -->
+            </div><!-- ./popup-container -->
+
+            <div class="img-menu display">
+                <!-- <div class="img active">
+                    <img src="images/g_img2.jpg" alt="">
+                </div>
+                <div class="img ">
+                    <img src="images/g_img3.jpg" alt="">
+                </div> -->
+            </div><!-- img-menu -->
+        </section>
+
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
